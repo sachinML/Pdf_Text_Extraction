@@ -62,8 +62,8 @@ class PdfExtractor:
         with open(self.output_path, "w", encoding="utf8") as output_file:
             json.dump(self.data, output_file, indent=4)
 
-input_path = 'D:\\Aidetic\\Mehul\\pdfjson\\Sunrise_Apartments_15571_E_13th_Ave_Aurora_CO_FINAL.pdf'
-output_path = 'D:\\Aidetic\\Mehul\\pdfjson\\output\\7\\Sunrise_Apartments.json'
+input_path = ''
+output_path = ''
 
 pdf_extractor = PdfExtractor(input_path, output_path)
 pdf_extractor.extract_data()
