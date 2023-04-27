@@ -68,3 +68,4 @@ output_path = ''
 pdf_extractor = PdfExtractor(input_path, output_path)
 pdf_extractor.extract_data()
 pdf_extractor.write_to_json()
+
